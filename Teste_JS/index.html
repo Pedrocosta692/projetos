@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio</title>
+    <link rel="stylesheet" href="/Teste_JS/style.css">
+</head>
+<body>
+    
+    <script type="text/javascript">
+        function startTime()
+        {
+        var today=new Date();
+        var h=today.getHours();
+        var m=today.getMinutes();
+        var s=today.getSeconds();
+        // add a zero in front of numbers<10
+        m=checkTime(m);
+        s=checkTime(s);
+        document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+        t=setTimeout('startTime()',500);
+        
+        }
+        
+        function checkTime(i)
+        {
+        if (i<10)
+          {
+          i="0" + i;
+          }
+        return i;
+        }
+        </script>
+        
+        
+        <div id="txt">
+        <script type="text/javascript">document.write(startTime())</script>
+        </div>
+
+        <br>
+        <script type="text/javascript">document.write(Date());</script>
+
+
+
+        <script language="JavaScript">
+            function confirmBox() {
+            if (confirm("Voce deseja mesmo ir para o Site do Google?")) {
+            location.href="http://google.com";}
+            }
+            </script>
+            
+            
+            </p><form>
+            Clique no Botão abaixo para ir para o Site do Google:
+            <input value="Clique aqui para abri o site do Google" onclick="confirmBox()" type="button"> 
+            </form>
+</body>
+</html>

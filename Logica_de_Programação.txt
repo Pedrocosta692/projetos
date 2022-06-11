@@ -1,0 +1,26 @@
+Então, o que é Lógica de Programação?
+
+R: Lógica de programação é a forma como você organiza qual passo você deve dar
+em cada momento para realizar a ação que você deseja. Em outras palavras,
+você vai aprender alguns comandos (os passos) e vai escrever códigos (o roteiro/programa) usando lógica
+para definir qual comando vai ser executado primeiro, qual vai ser depois,
+e assim sucessivamente até atingir o seu objetivo.
+
+A gente pode pensar em qualquer situação do nosso dia a dia,
+por exemplo veja abaixo um programa que geralmente executamos todo dia chamado “Tomar banho”:
+
+Início 
+1. Entrar no banheiro; 
+2. Tirar a roupa que está usando; 
+3. Ligar o chuveiro; 
+4. Se molhar, ensaboar, enxaguar; 
+5. Desligar o chuveiro; 
+6. Se secar; 
+7. Vestir a roupa limpa; 
+8. Sair do banheiro. 
+Fim
+
+Pensar em cada passo que a gente vai executar detalhadamente nos dará uma visão completa
+de algo que a gente faz hoje no modo automático, sem nem pensar.
+Provavelmente a gente vai identificar vários passos que podem ser excluídos ou otimizados,
+como por exemplo, lembrar de levar a toalha sempre, porque com certeza todo mundo já esqueceu algum dia.

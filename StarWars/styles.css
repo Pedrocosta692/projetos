@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+
+.slide-content{
+    margin: 0 40px;
+}
+
+.card{
+    width: 268px;
+    
+    border-radius: 25px;
+    background-color: #fff;
+}
+.card-content-1{
+    width: 268px;
+    height: 33.52px;
+    left: 916px;
+    top: 490px;
+    background: #FFC700;
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+}
+.card-content{
+    width: 268px;
+    height: 140px;
+    left: 586px;
+    top: 490px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+}
+
+.card-image{
+    width: 268px;
+    height: 352px;
+    left: 586px;
+    top: 166px;
+    background: #efefef; 
+}
+
+.card-image .card-img{
+    width: 268px;
+    height: 352px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name{
+    font-family: 'Fira Code', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.description{
+    width: 172.48px;
+    height: 21.45px;
+    left: 603px;
+    top: 531px;
+    font-family: 'Fira Code', monospace;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #505050;
+}
