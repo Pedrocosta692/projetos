@@ -129,6 +129,7 @@ img{
     top: -10px;
     left: 150px;
     border-radius: 30px;
+    max-width: 100%;
 }
 
 p{
